@@ -1,0 +1,51 @@
+# 环境变量（包含敏感信息）
+.env
+.env.local
+.env.*.local
+
+# 日志文件
+logs/
+*.log
+npm-debug.log*
+pm2.log*
+
+# 数据库文件
+database.db
+database.sqlite
+prism.db
+*.db
+*.sqlite
+
+# 备份文件
+backup_*
+
+# 依赖目录
+node_modules/
+
+# IDE配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# 编译输出
+dist/
+build/
+
+# 测试覆盖率
+coverage/
+.nyc_output/
+
+# 上传文件
+uploads/
+
+
